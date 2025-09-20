@@ -53,7 +53,6 @@ export function LocaleSwitcher({ locale, label, options }: LocaleSwitcherProps) 
 
   return (
     <label className="flex items-center gap-2 text-sm text-slate-600">
-      <span className="font-medium text-slate-500">{label}</span>
       <select
         className="rounded-md border border-slate-200 bg-white px-2 py-1 text-sm text-slate-600 shadow-sm transition focus:border-slate-400 focus:outline-none focus:ring-2 focus:ring-slate-200 disabled:cursor-not-allowed disabled:opacity-70"
         value={locale}

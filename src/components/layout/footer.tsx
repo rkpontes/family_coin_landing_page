@@ -24,9 +24,9 @@ export function Footer({ locale, messages }: FooterProps) {
           <Link href={`/${locale}/${siteConfig.links.pricing}`} className="hover:text-slate-900">
             {messages.footer.pricing}
           </Link>
-          <Link href={siteConfig.links.support} className="hover:text-slate-900">
+          {/* <Link href={siteConfig.links.support} className="hover:text-slate-900">
             {messages.footer.support}
-          </Link>
+          </Link> */}
           <LocaleSwitcher
             locale={locale}
             label={messages.footer.localeLabel}

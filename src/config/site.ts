@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "FamilyCoin",
-  url: "https://familycoin.app",
-  androidDownloadUrl: "https://play.google.com/store/apps/details?id=com.familycoin",
-  iosDownloadUrl: "https://apps.apple.com/app/id000000000",
+  url: "https://leapha.com/familycoin",
+  androidDownloadUrl: "https://play.google.com/store/apps/details?id=com.leapha.familycoin",
+  iosDownloadUrl: "https://apps.apple.com/br/app/familycoin/id6746703939",
   socials: {
     instagram: "https://instagram.com/familycoinapp",
     youtube: "https://youtube.com/@familycoin",
@@ -12,7 +12,7 @@ export const siteConfig = {
     twitter: "@familycoinapp"
   },
   links: {
-    support: "mailto:hello@familycoin.app",
+    support: "mailto:void",
     privacy: "privacy",
     pricing: "pricing"
   }

@@ -64,6 +64,11 @@ export type Messages = {
     privacy: string;
     pricing: string;
     support: string;
+    localeLabel: string;
+    localeOptions: Array<{
+      value: string;
+      label: string;
+    }>;
   };
   pricing: {
     badge: string;

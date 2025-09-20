@@ -78,7 +78,13 @@ export const ptBR: Messages = {
     rights: "Todos os direitos reservados.",
     privacy: "Privacidade",
     pricing: "Preços",
-    support: "Suporte"
+    support: "Suporte",
+    localeLabel: "Idioma",
+    localeOptions: [
+      { value: "pt_BR", label: "Português (Brasil)" },
+      { value: "en_US", label: "Inglês (EUA)" },
+      { value: "es_ES", label: "Espanhol (Espanha)" }
+    ]
   },
   pricing: {
     badge: "Em breve",

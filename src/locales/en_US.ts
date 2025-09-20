@@ -78,7 +78,13 @@ export const enUS: Messages = {
     rights: "All rights reserved.",
     privacy: "Privacy",
     pricing: "Pricing",
-    support: "Support"
+    support: "Support",
+    localeLabel: "Language",
+    localeOptions: [
+      { value: "en_US", label: "English (US)" },
+      { value: "pt_BR", label: "Português (Brasil)" },
+      { value: "es_ES", label: "Español (España)" }
+    ]
   },
   pricing: {
     badge: "Coming soon",

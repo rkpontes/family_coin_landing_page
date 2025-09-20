@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { siteConfig } from "@/config/site";
+import { LocaleSwitcher } from "@/components/layout/locale-switcher";
 import type { Locale } from "@/lib/i18n";
 import type { Messages } from "@/locales/types";
 
@@ -26,6 +27,11 @@ export function Footer({ locale, messages }: FooterProps) {
           <Link href={siteConfig.links.support} className="hover:text-slate-900">
             {messages.footer.support}
           </Link>
+          <LocaleSwitcher
+            locale={locale}
+            label={messages.footer.localeLabel}
+            options={messages.footer.localeOptions}
+          />
         </div>
       </div>
     </footer>

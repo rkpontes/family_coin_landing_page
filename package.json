@@ -7,7 +7,6 @@
     "dev": "next dev -p 3001",
     "build": "next build",
     "build:static": "NODE_ENV=production next build",
-    "build:export": "NODE_ENV=production next build && next export",
     "start": "next start -p 3001",
     "preview": "next build && next start -p 3001",
     "lint": "next lint",
@@ -15,10 +14,13 @@
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "typecheck": "tsc --noEmit",
-    "clean": "rm -rf .next out dist",
-    "prepare": "husky install"
+    "clean": "rm -rf .next out dist"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "framer-motion": "^11.0.0",
@@ -27,17 +29,12 @@
     "next-themes": "^0.2.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "zod": "^3.22.4",
-    "tailwindcss-animate": "^1.0.7",
+    "sharp": "^0.34.4",
     "tailwind-merge": "^2.2.1",
-    "@radix-ui/react-slot": "^1.0.2",
-    "@fortawesome/fontawesome-svg-core": "^6.5.1",
-    "@fortawesome/free-brands-svg-icons": "^6.5.1",
-    "@fortawesome/react-fontawesome": "^0.2.2"
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.2.1",
-    "@commitlint/config-conventional": "^19.2.1",
     "@types/node": "^20.11.30",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
@@ -45,20 +42,9 @@
     "eslint": "^8.57.0",
     "eslint-config-next": "^14.2.3",
     "eslint-config-prettier": "^9.1.0",
-    "husky": "^9.0.10",
-    "lint-staged": "^15.2.2",
     "postcss": "^8.4.35",
     "prettier": "^3.2.5",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5"
-  },
-  "lint-staged": {
-    "*.{ts,tsx,js,jsx}": [
-      "eslint --fix",
-      "prettier --write"
-    ],
-    "*.{md,css,json}": [
-      "prettier --write"
-    ]
   }
 }

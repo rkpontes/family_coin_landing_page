@@ -1,6 +1,6 @@
 import type { Messages } from "@/locales/types";
 
-export const ptBR: Messages = {
+export const pt: Messages = {
   metadata: {
     title: "FamilyCoin — Transforme tarefas em diversão",
     description:
@@ -15,7 +15,7 @@ export const ptBR: Messages = {
     tagline: "Moedas mágicas em família"
   },
   hero: {
-    badge: "O app favorito das famílias brasileiras",
+    badge: "O app favorito das famílias",
     title: "Transforme tarefas em diversão",
     description:
       "Com FamilyCoin, seus filhos ganham moedas virtuais ao completar atividades e trocam por recompensas em família.",
@@ -81,9 +81,9 @@ export const ptBR: Messages = {
     support: "Suporte",
     localeLabel: "Idioma",
     localeOptions: [
-      { value: "pt_BR", label: "Português (Brasil)" },
-      { value: "en_US", label: "Inglês (EUA)" },
-      { value: "es_ES", label: "Espanhol (Espanha)" }
+      { value: "pt", label: "Português" },
+      { value: "en", label: "Inglês" },
+      { value: "es", label: "Espanhol" }
     ]
   },
   pricing: {

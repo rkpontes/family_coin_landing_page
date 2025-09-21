@@ -1,6 +1,6 @@
 import type { Messages } from "@/locales/types";
 
-export const enUS: Messages = {
+export const en: Messages = {
   metadata: {
     title: "FamilyCoin — Turn chores into fun",
     description:
@@ -81,9 +81,9 @@ export const enUS: Messages = {
     support: "Support",
     localeLabel: "Language",
     localeOptions: [
-      { value: "en_US", label: "English (US)" },
-      { value: "pt_BR", label: "Português (Brasil)" },
-      { value: "es_ES", label: "Español (España)" }
+      { value: "en", label: "English" },
+      { value: "pt", label: "Português" },
+      { value: "es", label: "Español" }
     ]
   },
   pricing: {

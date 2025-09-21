@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { StoreButton } from "@/components/core/button-hero";
 import { Container } from "@/components/core/container";
 import { Section } from "@/components/core/section";
-import { WaitlistForm } from "@/components/blocks/waitlist-form";
+// import { WaitlistForm } from "@/components/blocks/waitlist-form";
 import { siteConfig } from "@/config/site";
 import type { Messages } from "@/locales/types";
 
@@ -15,7 +15,8 @@ interface CTAProps {
   waitlistMessages: Messages["waitlist"];
 }
 
-export function CTA({ messages, storeMessages, waitlistMessages }: CTAProps) {
+// export function CTA({ messages, storeMessages, waitlistMessages }: CTAProps) {
+export function CTA({ messages, storeMessages }: CTAProps) {
   return (
     <Section className="relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-brand-400 via-brand-500 to-coin" />
@@ -67,7 +68,7 @@ export function CTA({ messages, storeMessages, waitlistMessages }: CTAProps) {
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          <WaitlistForm messages={waitlistMessages} />
+          {/* <WaitlistForm messages={waitlistMessages} /> */}
         </motion.div>
       </Container>
     </Section>

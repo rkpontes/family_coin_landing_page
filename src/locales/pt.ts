@@ -8,6 +8,7 @@ export const pt: Messages = {
   },
   navigation: {
     home: "Início",
+    about: "Sobre",
     features: "Recursos",
     pricing: "Preços",
     privacy: "Privacidade",
@@ -34,6 +35,30 @@ export const pt: Messages = {
         status: "+50 moedas"
       },
       info: "Crie novas missões e acompanhe cada conquista."
+    }
+  },
+  about: {
+    badge: "Sobre o FamilyCoin",
+    heading: "Uma nova forma de educar e se divertir em família",
+    description:
+      "FamilyCoin nasceu da necessidade de criar conexões mais fortes entre pais e filhos, transformando responsabilidades em momentos de alegria e aprendizado.",
+    items: [
+      {
+        title: "Missão",
+        description: "Fortalecer os laços familiares através da gamificação, tornando o aprendizado e as responsabilidades mais divertidos e recompensadores."
+      },
+      {
+        title: "Visão",
+        description: "Ser a plataforma de referência para famílias que buscam educar com amor, diversão e propósito, criando memórias que durarão para sempre."
+      },
+      {
+        title: "Valores",
+        description: "Acreditamos na educação positiva, no poder do reconhecimento e na importância de celebrar cada pequena conquista das crianças."
+      }
+    ],
+    tokenEconomy: {
+      heading: "Token Economy na Prática",
+      description: "Nossa abordagem se baseia no conceito científico de Token Economy, onde comportamentos positivos são reforçados através de recompensas tangíveis. As moedas virtuais funcionam como tokens que motivam as crianças a manter hábitos saudáveis, criando um ciclo virtuoso de aprendizado e crescimento pessoal."
     }
   },
   features: {
@@ -73,6 +98,9 @@ export const pt: Messages = {
   cta: {
     heading: "Baixe agora e transforme a rotina em momentos mágicos.",
     description: "Crie desafios, defina recompensas e veja a motivação crescer a cada conquista."
+  },
+  newsletter: {
+    button: "Inscrever-se no Newsletter"
   },
   footer: {
     rights: "Todos os direitos reservados.",

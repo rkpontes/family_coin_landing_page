@@ -8,6 +8,7 @@ export const es: Messages = {
   },
   navigation: {
     home: "Inicio",
+    about: "Acerca de",
     features: "Funciones",
     pricing: "Precios",
     privacy: "Privacidad",
@@ -34,6 +35,30 @@ export const es: Messages = {
         status: "+50 monedas"
       },
       info: "Crea nuevas misiones y sigue cada logro."
+    }
+  },
+  about: {
+    badge: "Acerca de FamilyCoin",
+    heading: "Una nueva forma de educar y divertirse en familia",
+    description:
+      "FamilyCoin nació de la necesidad de crear conexiones más fuertes entre padres e hijos, transformando las responsabilidades en momentos de alegría y aprendizaje.",
+    items: [
+      {
+        title: "Misión",
+        description: "Fortalecer los lazos familiares a través de la gamificación, haciendo que el aprendizaje y las responsabilidades sean más divertidos y gratificantes."
+      },
+      {
+        title: "Visión",
+        description: "Ser la plataforma de referencia para familias que buscan educar con amor, diversión y propósito, creando recuerdos que durarán para siempre."
+      },
+      {
+        title: "Valores",
+        description: "Creemos en la educación positiva, el poder del reconocimiento y la importancia de celebrar cada pequeño logro de los niños."
+      }
+    ],
+    tokenEconomy: {
+      heading: "Token Economy en la Práctica",
+      description: "Nuestro enfoque se basa en el concepto científico de Token Economy, donde los comportamientos positivos se refuerzan a través de recompensas tangibles. Las monedas virtuales funcionan como tokens que motivan a los niños a mantener hábitos saludables, creando un ciclo virtuoso de aprendizaje y crecimiento personal."
     }
   },
   features: {
@@ -73,6 +98,9 @@ export const es: Messages = {
   cta: {
     heading: "Descárgala ahora y convierte la rutina en momentos mágicos.",
     description: "Crea desafíos, define recompensas y mira cómo crece la motivación en cada logro."
+  },
+  newsletter: {
+    button: "Suscribirse al Newsletter"
   },
   footer: {
     rights: "Todos los derechos reservados.",

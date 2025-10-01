@@ -8,6 +8,7 @@ export const en: Messages = {
   },
   navigation: {
     home: "Home",
+    about: "About",
     features: "Features",
     pricing: "Pricing",
     privacy: "Privacy",
@@ -34,6 +35,30 @@ export const en: Messages = {
         status: "+50 coins"
       },
       info: "Create new quests and track every achievement."
+    }
+  },
+  about: {
+    badge: "About FamilyCoin",
+    heading: "A new way to educate and have fun as a family",
+    description:
+      "FamilyCoin was born from the need to create stronger connections between parents and children, transforming responsibilities into moments of joy and learning.",
+    items: [
+      {
+        title: "Mission",
+        description: "Strengthen family bonds through gamification, making learning and responsibilities more fun and rewarding."
+      },
+      {
+        title: "Vision",
+        description: "To be the go-to platform for families seeking to educate with love, fun, and purpose, creating memories that will last forever."
+      },
+      {
+        title: "Values",
+        description: "We believe in positive education, the power of recognition, and the importance of celebrating every small achievement of children."
+      }
+    ],
+    tokenEconomy: {
+      heading: "Token Economy in Practice",
+      description: "Our approach is based on the scientific concept of Token Economy, where positive behaviors are reinforced through tangible rewards. Virtual coins work as tokens that motivate children to maintain healthy habits, creating a virtuous cycle of learning and personal growth."
     }
   },
   features: {
@@ -73,6 +98,9 @@ export const en: Messages = {
   cta: {
     heading: "Download now and turn routines into magic moments.",
     description: "Create challenges, set rewards, and watch motivation grow with every milestone."
+  },
+  newsletter: {
+    button: "Subscribe to Newsletter"
   },
   footer: {
     rights: "All rights reserved.",

@@ -17,6 +17,7 @@ interface HeaderProps {
 export function Header({ locale, messages }: HeaderProps) {
   const localizedNav = [
     { label: messages.navigation.home, href: `/${locale}` },
+    { label: messages.navigation.about, href: `/${locale}#about` },
     { label: messages.navigation.features, href: `/${locale}#features` },
     { label: messages.navigation.pricing, href: `/${locale}/${siteConfig.links.pricing}` },
     { label: messages.navigation.privacy, href: `/${locale}/${siteConfig.links.privacy}` }

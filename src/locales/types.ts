@@ -5,6 +5,7 @@ export type Messages = {
   };
   navigation: {
     home: string;
+    about: string;
     features: string;
     pricing: string;
     privacy: string;
@@ -30,6 +31,19 @@ export type Messages = {
         status: string;
       };
       info: string;
+    };
+  };
+  about: {
+    badge: string;
+    heading: string;
+    description: string;
+    items: Array<{
+      title: string;
+      description: string;
+    }>;
+    tokenEconomy: {
+      heading: string;
+      description: string;
     };
   };
   features: {
@@ -58,6 +72,9 @@ export type Messages = {
   cta: {
     heading: string;
     description: string;
+  };
+  newsletter: {
+    button: string;
   };
   footer: {
     rights: string;

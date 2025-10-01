@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { StoreButton } from "@/components/core/button-hero";
 import { Container } from "@/components/core/container";
 import { Section } from "@/components/core/section";
+import { Button } from "@/components/ui/button";
 // import { WaitlistForm } from "@/components/blocks/waitlist-form";
 import { siteConfig } from "@/config/site";
 import type { Messages } from "@/locales/types";
@@ -13,10 +14,10 @@ interface CTAProps {
   messages: Messages["cta"];
   storeMessages: Messages["store"];
   waitlistMessages: Messages["waitlist"];
+  newsletterMessages: Messages["newsletter"];
 }
 
-// export function CTA({ messages, storeMessages, waitlistMessages }: CTAProps) {
-export function CTA({ messages, storeMessages }: CTAProps) {
+export function CTA({ messages, storeMessages, newsletterMessages }: CTAProps) {
   return (
     <Section className="relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-brand-400 via-brand-500 to-coin" />
@@ -68,7 +69,14 @@ export function CTA({ messages, storeMessages }: CTAProps) {
           viewport={{ once: true }}
           transition={{ delay: 0.2, duration: 0.5 }}
         >
-          {/* <WaitlistForm messages={waitlistMessages} /> */}
+          <Button
+            variant="secondary"
+            size="lg"
+            onClick={() => window.open('https://888f9e22.sibforms.com/serve/MUIFAEF_gwPK0Kzn2-TQIDYFOf5KIvtHaRaNC1eFm7FK67Tx53LNygeeosXs77j3k5-oYV65VlAqSUxcRO-WA1zg5L_8sqmse_CkcmDbJHstHR71FUzJ2_txr27CKgUm1PQephqt8ZaLGqCXjSl7HLYmPYnqHtVtjZ3UlkuU1a3LAYUkxzj6jAcJab-lvMBvMqfmt7mTCBdPuvVb', '_blank')}
+            className="bg-white text-slate-900 hover:bg-slate-100 shadow-lg font-semibold"
+          >
+            {newsletterMessages.button}
+          </Button>
         </motion.div>
       </Container>
     </Section>

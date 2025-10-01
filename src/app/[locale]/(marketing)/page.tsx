@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
+import { About } from "@/components/blocks/about";
 import { CTA } from "@/components/blocks/cta";
 import { Features } from "@/components/blocks/features";
 import { Hero } from "@/components/blocks/hero";
@@ -48,11 +49,13 @@ export default function LandingPage({ params }: PageProps) {
   return (
     <>
       <Hero messages={messages.hero} storeMessages={messages.store} />
+      <About messages={messages.about} />
       <Features messages={messages.features} />
       <CTA
         messages={messages.cta}
         storeMessages={messages.store}
         waitlistMessages={messages.waitlist}
+        newsletterMessages={messages.newsletter}
       />
     </>
   );
